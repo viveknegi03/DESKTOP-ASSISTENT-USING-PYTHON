@@ -36,13 +36,35 @@ def takeCommand():
         try:
             print("Recognizing...")
             query = r.recognize_google(audio, language = 'en-in')
-            print(f"user said: {query}\n")
+            # print(f"user said: {query}\n")
 
 
         except Exception as e:
             print("say that again plss")
             return "None"
         return query
+
+
+if __name__ =="__main__":
+    query = takeCommand().lower()
+
+
+    if "wikipedia" in query:
+        speak("searching in wikipedia")
+        query = query.replace("wikipedia","")
+        result=wikipedia.summary(query,sentences = 2)
+        speak("According to wikipedia")
+        print(result)
+        speak(result)
+
+    elif "youtube" in query:
+        speak("opening youtube")
+        webbrowser.open("youtube.com")
     
-text=takeCommand()
-speak(text)
+    elif"google" in query:
+        speak("opening google")
+        webbrowser.open("google.com")
+
+    elif"github" in query:
+        speak("opening github")
+        webbrowser.open("github.com")
