@@ -1,4 +1,5 @@
 SpeechRecognition
 pyttsx3
 PyAudio
+wikipedia
 
