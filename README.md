@@ -17,4 +17,6 @@ conda activate assistant
 4. Install the packeges present in the requirement.txt file
 ```bash
 pip install -r requirement.txt
+
+AIzaSyCgadZYDrzkMg9b7LiV5IU8FaZXl-QyGT4
 ```
