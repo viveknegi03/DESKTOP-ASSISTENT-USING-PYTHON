@@ -18,5 +18,5 @@ conda activate assistant
 ```bash
 pip install -r requirement.txt
 
-AIzaSyCgadZYDrzkMg9b7LiV5IU8FaZXl-QyGT4
+
 ```
