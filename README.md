@@ -2,7 +2,7 @@
 ## how to run
 1. Create a new virtual enviroment
 ```bash
-conda create -n assistant python=3.8
+conda create -n assistant python=3.10
 
 ```
 2. Cheackout the created virtual enviroment
