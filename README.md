@@ -17,6 +17,11 @@ conda activate assistant
 4. Install the packeges present in the requirement.txt file
 ```bash
 pip install -r requirement.txt
-
+```
+5. to run the program
+   ```bash
+   streamlit run app.py
+   ```
+   
 
 ```
